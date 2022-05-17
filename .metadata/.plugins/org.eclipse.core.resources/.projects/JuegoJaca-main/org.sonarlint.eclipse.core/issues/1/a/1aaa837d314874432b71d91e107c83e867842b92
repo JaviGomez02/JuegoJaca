@@ -1,0 +1,27 @@
+
+y
+java:S1192c"JDefine a constant instead of duplicating this literal "user.dir" 10 times.(ÎŞ„ËHœRCRITICALZ
+CODE_SMELL
+c
+java:S1135¨"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH§RINFOZ
+CODE_SMELL
+‡
+java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(¼ ÒşüÿÿÿÿH¨RCRITICALZ
+CODE_SMELL
+c
+java:S1135Á"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¼RINFOZ
+CODE_SMELL
+b
+java:S1905B"1Remove this unnecessary cast to "ActionListener".(Â¸¸‰ûÿÿÿÿH½RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘H¿RMINORZ
+CODE_SMELL
+c
+java:S1135º"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÀRINFOZ
+CODE_SMELL
+c
+java:S1135¯"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÁRINFOZ
+CODE_SMELL
+ˆ
+java:S1192³"XDefine a constant instead of duplicating this literal "Movimiento no permitido" 3 times.(‰€ÀóHÂRCRITICALZ
+CODE_SMELL

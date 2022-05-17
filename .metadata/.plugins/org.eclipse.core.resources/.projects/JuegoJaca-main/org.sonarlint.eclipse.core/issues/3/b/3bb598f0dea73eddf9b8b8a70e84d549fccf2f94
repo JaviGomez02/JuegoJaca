@@ -1,0 +1,45 @@
+
+†
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‚ÒşåıÿÿÿÿHÆRCRITICALZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÒRINFOZ
+CODE_SMELL
+d	java:S106("9Replace this use of System.out or System.err by a logger.(õÍâ™HÓRMAJORZ
+CODE_SMELL
+d	java:S106;"9Replace this use of System.out or System.err by a logger.(§¬¤HÔRMAJORZ
+CODE_SMELL
+d	java:S106H"9Replace this use of System.out or System.err by a logger.(“³ÙğHÕRMAJORZ
+CODE_SMELL
+d	java:S106:"9Replace this use of System.out or System.err by a logger.(¡¨ß HÖRMAJORZ
+CODE_SMELL
+„
+java:S1104"SMake teclado a static final constant or non-public and provide accessors if needed.(©§ôúÿÿÿÿH×RMINORZ
+CODE_SMELL
+i	java:S106L"9Replace this use of System.out or System.err by a logger.(óĞûÿÿÿÿHØRMAJORZ
+CODE_SMELL
+i	java:S106Z"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(÷²ÚèHÚRMAJORZ
+CODE_SMELL
+i	java:S1069"9Replace this use of System.out or System.err by a logger.(Ó¶‚‡üÿÿÿÿHÛRMAJORZ
+CODE_SMELL
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ììì›ùÿÿÿÿHÜRMINORZ
+CODE_SMELL
+^
+java:S1444"-Make this "public static teclado" field final(©§ôúÿÿÿÿHİRMINORZ
+CODE_SMELL
+i	java:S1061"9Replace this use of System.out or System.err by a logger.( øşÿÿÿÿHŞRMAJORZ
+CODE_SMELL
+g	java:S125B"<This block of commented-out lines of code should be removed.(éö¾³HßRMAJORZ
+CODE_SMELL
+i	java:S106O"9Replace this use of System.out or System.err by a logger.(Ó¶‚‡üÿÿÿÿHàRMAJORZ
+CODE_SMELL
+d	java:S106V"9Replace this use of System.out or System.err by a logger.(’†HáRMAJORZ
+CODE_SMELL
+d	java:S106*"9Replace this use of System.out or System.err by a logger.(Ï«»¬HâRMAJORZ
+CODE_SMELL
+i	java:S106C"9Replace this use of System.out or System.err by a logger.(Í­ÔéúÿÿÿÿHãRMAJORZ
+CODE_SMELL
+d	java:S106P"9Replace this use of System.out or System.err by a logger.(§¬¤HäRMAJORZ
+CODE_SMELL

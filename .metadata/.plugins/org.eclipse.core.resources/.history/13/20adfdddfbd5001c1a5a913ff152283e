@@ -1,0 +1,6 @@
+package elementos;
+
+public class Element {
+	protected ElementType type;
+
+}

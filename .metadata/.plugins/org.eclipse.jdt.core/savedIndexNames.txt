@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Asus\Desktop\Juego Jaca\.metadata\.plugins\org.eclipse.jdt.core
+2285491665.index
+1865797976.index
+1210986852.index

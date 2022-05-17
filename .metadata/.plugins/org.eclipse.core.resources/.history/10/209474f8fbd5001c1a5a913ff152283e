@@ -1,0 +1,16 @@
+package elementos;
+
+public class Element {
+	protected ElementType type;
+
+	public Element(ElementType type) {
+		super();
+		this.type = type;
+	}
+	
+	
+	
+	
+	
+
+}

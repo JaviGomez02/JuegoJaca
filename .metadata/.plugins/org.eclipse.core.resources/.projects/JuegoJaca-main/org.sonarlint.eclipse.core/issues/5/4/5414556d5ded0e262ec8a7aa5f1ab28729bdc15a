@@ -1,0 +1,25 @@
+
+P	java:S131]""Add a default case to this switch.(ôş€äH’RCRITICALZ
+CODE_SMELL
+T
+java:S1068"(Remove this unused "dado" private field.(‘åãÈH‰RMAJORZ
+CODE_SMELL
+€
+java:S1192b"LDefine a constant instead of duplicating this literal "El jugador " 6 times.(¯¢íûÿÿÿÿH“RCRITICALZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘H‘RMINORZ
+CODE_SMELL
+
+java:S1450"SRemove the "dado" field and declare it as a local variable in the relevant methods.(‘åãÈH‹RMINORZ
+CODE_SMELL
+{
+java:S1192n"LDefine a constant instead of duplicating this literal "El enemigo " 3 times.(¼æÚïHRCRITICALZ
+CODE_SMELL
+z
+java:S6201Y"HReplace this instanceof check and cast with 'instanceof Jugador enemigo'(„ ~8šÔë—0HšRMINORZ
+CODE_SMELL
+Q	java:S131€""Add a default case to this switch.(£ù¿šHŒRCRITICALZ
+CODE_SMELL
+·
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ·¦8­€–™0HØRCRITICALZ
+CODE_SMELL
