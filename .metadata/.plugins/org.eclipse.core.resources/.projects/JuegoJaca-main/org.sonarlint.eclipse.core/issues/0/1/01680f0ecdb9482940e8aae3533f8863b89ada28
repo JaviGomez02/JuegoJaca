@@ -1,14 +1,13 @@
 
-M
-java:S2119'"Save and re-use this "Random".(¡Å”¦8ÜÚˆ—0HÁRCRITICALZBUG
 l
-java:S3400Q"9Remove this method and declare a constant for this value.(…ÅÄ÷8™ø¦—0HÈRMINORZ
+java:S3400Q"9Remove this method and declare a constant for this value.(…ÅÄ÷8™ø¦—0H˜DRMINORZ
 CODE_SMELL
-M
-java:S2119"Save and re-use this "Random".(¡Å”¦8ñí—0HRCRITICALZBUG
 c
-java:S2160"+Override the "equals" method in this class.(Æ’ÀÈøÿÿÿÿ8ı­–0H®
-RMINORZ
+java:S2160"+Override the "equals" method in this class.(Æ’ÀÈøÿÿÿÿ8ı­–0H™DRMINORZ
 CODE_SMELL
 M
-java:S21190"Save and re-use this "Random".(¡Å”¦8· “—0HàRCRITICALZBUG
+java:S21190"Save and re-use this "Random".(¡Å”¦8· “—0HšDRCRITICALZBUG
+M
+java:S2119"Save and re-use this "Random".(¡Å”¦8ñí—0H›DRCRITICALZBUG
+M
+java:S2119'"Save and re-use this "Random".(¡Å”¦8ÜÚˆ—0HœDRCRITICALZBUG

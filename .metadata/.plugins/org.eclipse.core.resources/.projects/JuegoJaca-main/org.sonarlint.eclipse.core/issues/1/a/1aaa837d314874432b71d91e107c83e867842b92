@@ -1,27 +1,33 @@
 
-y
-java:S1192c"JDefine a constant instead of duplicating this literal "user.dir" 10 times.(ÎŞ„ËHœRCRITICALZ
+„
+java:S5361‘"HReplace this call to "replaceAll()" by a call to the "replace()" method.(•íçêüÿÿÿÿ8Õ½¿0HùARCRITICALZ
+CODE_SMELL
+
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÓŒğ 8Õ½¿0HúARCRITICALZ
 CODE_SMELL
 c
-java:S1135¨"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH§RINFOZ
-CODE_SMELL
-‡
-java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(¼ ÒşüÿÿÿÿH¨RCRITICALZ
-CODE_SMELL
-c
-java:S1135Á"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¼RINFOZ
+java:S1135¼"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHôARINFOZ
 CODE_SMELL
 b
-java:S1905B"1Remove this unnecessary cast to "ActionListener".(Â¸¸‰ûÿÿÿÿH½RMINORZ
+java:S1905B"1Remove this unnecessary cast to "ActionListener".(Â¸¸‰ûÿÿÿÿHïARMINORZ
 CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘H¿RMINORZ
-CODE_SMELL
-c
-java:S1135º"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÀRINFOZ
+y
+java:S1192d"JDefine a constant instead of duplicating this literal "user.dir" 10 times.(ÎŞ„ËHÏARCRITICALZ
 CODE_SMELL
 c
-java:S1135¯"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÁRINFOZ
+java:S1135Ã"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÚARINFOZ
 CODE_SMELL
 ˆ
-java:S1192³"XDefine a constant instead of duplicating this literal "Movimiento no permitido" 3 times.(‰€ÀóHÂRCRITICALZ
+java:S1192µ"XDefine a constant instead of duplicating this literal "Movimiento no permitido" 3 times.(‰€ÀóHõARCRITICALZ
+CODE_SMELL
+c
+java:S1135ª"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHñARINFOZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘HóARMINORZ
+CODE_SMELL
+‡
+java:S3776™"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(¼ ÒşüÿÿÿÿHÛARCRITICALZ
+CODE_SMELL
+c
+java:S1135±"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHòARINFOZ
 CODE_SMELL

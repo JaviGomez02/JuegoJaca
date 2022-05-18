@@ -22,20 +22,20 @@ import elementos.PlayerType;
 public class JuegoGUI extends Juego implements ActionListener {
 
 	private JButton[][] botones; // Matriz de botones
-	private JFrame ventana; // Ventana que se utilizará para el gráfico. Esta ventana
+	private JFrame ventana; // Ventana que se utilizarÃ¡ para el grÃ¡fico. Esta ventana
 	// se divide en el panel superio y el panel del juego
-	private JPanel panelSuperior; // Panel superior para mostrar la información
-	private JLabel informacion; // Etiqueta que se muestra en el panel superior para mostrar la información
+	private JPanel panelSuperior; // Panel superior para mostrar la informaciÃ³n
+	private JLabel informacion; // Etiqueta que se muestra en el panel superior para mostrar la informaciÃ³n
 	private JPanel panelJuego; // Panel para mostrar los botones
 
 	public JuegoGUI(PlayerType[] jugadores) throws JuegoException {
 		super(jugadores);
 
-		// Crea el JFrame que es la ventana. Le pongo el nombre y el botón de cerrar
+		// Crea el JFrame que es la ventana. Le pongo el nombre y el botÃ³n de cerrar
 		ventana = new JFrame("Jaca Juego");
 		ventana.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-		// Crea el panel superior donde pondremos información del juego
+		// Crea el panel superior donde pondremos informaciÃ³n del juego
 		panelSuperior = new JPanel();
 		panelSuperior.setBackground(Color.BLUE);
 		panelSuperior.setPreferredSize(new Dimension(200, 350));
@@ -49,25 +49,25 @@ public class JuegoGUI extends Juego implements ActionListener {
 		panelJuego = new JPanel();
 		Dimension d = new Dimension(50, 50);
 
-		// Crea una matriz para guardar los botones que se añaden
+		// Crea una matriz para guardar los botones que se aÃ±aden
 		botones = new JButton[Constantes.TAMANNO][Constantes.TAMANNO];
 		// Crea un GridLayout para organizar los botones en forma de matriz
 		panelJuego.setLayout(new GridLayout(Constantes.TAMANNO, Constantes.TAMANNO));
-		// Crea los botones y los añade al panelJuego
+		// Crea los botones y los aÃ±ade al panelJuego
 		for (int j = 0; j < Constantes.TAMANNO; j++) {
 			for (int i = 0; i < Constantes.TAMANNO; i++) {
 				JButton button1 = new JButton();
 				button1.setPreferredSize(d);
-				// Le pone el icono correspondiente al botón
+				// Le pone el icono correspondiente al botÃ³n
 				this.asignarIcono(button1, i, j);
-				// Le asigna el tamaña
+				// Le asigna el tamaÃ±a
 				button1.setMaximumSize(new Dimension(50, 50));
-				// Le añade un Listener para que cuando se haga click lance el listener
+				// Le aÃ±ade un Listener para que cuando se haga click lance el listener
 				button1.addActionListener((ActionListener) this);
-				// Lo añade al panelJuego
+				// Lo aÃ±ade al panelJuego
 				panelJuego.add(button1);
 				// Lo guarda en la matriz de botones para luego buscarlo cuando
-				// el listener nos avise que se ha hecho clic sobre un botón.
+				// el listener nos avise que se ha hecho clic sobre un botÃ³n.
 				botones[i][j] = button1;
 			}
 		}
@@ -76,29 +76,30 @@ public class JuegoGUI extends Juego implements ActionListener {
 
 		// Lanza el dado del jugadore que le toca jugar
 		super.setDado();
-		// Muestra la información
+		// Muestra la informaciÃ³n
 		setInformacion();
 
 		ventana.pack();
 		ventana.setVisible(true);
 
-		// Muestra ventana con el jugador que le toca jugar y el número que le ha salido
+		// Muestra ventana con el jugador que le toca jugar y el nÃºmero que le ha
+		// salido
 		// en el dado.
 
-		JOptionPane.showMessageDialog(ventana,
-				"Le toca al jugador " + super.getNombreJuegadorQueJuega() + ". El dado saca " + super.getValorDado() + " movimientos");
+		JOptionPane.showMessageDialog(ventana, "Le toca al jugador " + super.getNombreJuegadorQueJuega()
+				+ ". El dado saca " + super.getValorDado() + " movimientos");
 	}
 
-	// Devuelve el icono correspondiente según el elemento
+	// Devuelve el icono correspondiente segÃºn el elemento
 
 	private void asignarIcono(JButton button, int x, int y) {
 		ImageIcon imageIcon;
 		// Si no hay nada se pone el elemento por defecto
 
-		if (super.obtenerElementoTablero(new Coordenada(x, y)) == null) {
+		if (super.obtenerElementoTablero​(new Coordenada(x, y)) == null) {
 			imageIcon = new ImageIcon(System.getProperty("user.dir") + "/img/nada.png");
 		} else {
-			switch (super.obtenerElementoTablero(new Coordenada(x, y)).getType().getSymbol()) {
+			switch (super.obtenerElementoTablero​(new Coordenada(x, y)).getType().getSymbol()) {
 			case 'D':
 				imageIcon = new ImageIcon(System.getProperty("user.dir") + "/img/dinero.png");
 				break;
@@ -134,7 +135,8 @@ public class JuegoGUI extends Juego implements ActionListener {
 		button.setIcon(imageIcon);
 	}
 
-	/** Muestra información
+	/**
+	 * Muestra informaciÃ³n
 	 * 
 	 */
 	public void setInformacion() {
@@ -143,16 +145,16 @@ public class JuegoGUI extends Juego implements ActionListener {
 				+ super.imprimeNombreJugadores().replaceAll("\n", "<br><br>") + "</html>");
 	}
 
-	
-	/** Controla el juego
+	/**
+	 * Controla el juego
 	 * 
 	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 
-		// Cojo el botón que han pulsado
+		// Cojo el botÃ³n que han pulsado
 		JButton bx = (JButton) e.getSource();
-		// Busco dónde está el botón en el cuadrante de botones
+		// Busco dÃ³nde estÃ¡ el botÃ³n en el cuadrante de botones
 		for (int i = 0; i < Constantes.TAMANNO; i++)
 			for (int j = 0; j < Constantes.TAMANNO; j++)
 				if (botones[i][j] == bx) { // Encuentro la coordenada i y j donde se ha pulsadlo
@@ -226,7 +228,7 @@ public class JuegoGUI extends Juego implements ActionListener {
 	}
 
 	/**
-	 * Actualizar iconos, necesario cuando se cambia de casillas algún jugador.
+	 * Actualizar iconos, necesario cuando se cambia de casillas algÃºn jugador.
 	 */
 	private void actualizarIconos() {
 

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;siguiente&apos; in &apos;logicaJuego.Juego.getGanador()&apos; to &apos;e&apos;&#x0D;&#x0A;- Original project: &apos;JuegoJaca-main&apos;&#x0D;&#x0A;- Original element: &apos;logicaJuego.Juego.getGanador().siguiente&apos;&#x0D;&#x0A;- Renamed element: &apos;siguiente&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;siguiente&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;logicaJuego{Juego.java[Juego~getGanador@siguiente!4558!4593!4566!4574!QElement;!0!false" name="e" references="true" stamp="1652888817625" version="1.0"/>
+</session>

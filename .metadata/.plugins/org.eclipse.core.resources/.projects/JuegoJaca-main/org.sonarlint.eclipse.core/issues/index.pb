@@ -19,3 +19,7 @@ S
 #src/elementos/JugadorException.java,f\7\f7afbf5082aa80e8f1be0d802f58ed385200f1d7
 J
 src/elementos/Jugador.java,0\1\01680f0ecdb9482940e8aae3533f8863b89ada28
+J
+src/main/mainJuegoGUI.java,7\2\72abe134962d09109e181cbcf83dcc3cd0e8836f
+S
+#src/logicaJuego/JuegoException.java,c\6\c6d47bbf2ace0ff4e8ab13bb7d34b000fb1457f5
