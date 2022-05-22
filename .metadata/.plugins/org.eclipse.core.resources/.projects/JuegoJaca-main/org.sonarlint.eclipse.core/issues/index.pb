@@ -23,3 +23,9 @@ J
 src/main/mainJuegoGUI.java,7\2\72abe134962d09109e181cbcf83dcc3cd0e8836f
 S
 #src/logicaJuego/JuegoException.java,c\6\c6d47bbf2ace0ff4e8ab13bb7d34b000fb1457f5
+L
+src/test/CoordenadaTest.java,1\1\110aeaf46a8da3572580e27dfb73a5198a97e6b3
+L
+src/test/TestCoordenada.java,7\4\7463396e75ed1850f947ebc161aac6229226be4f
+I
+src/test/TestJugador.java,b\5\b5b27e2fbd915011862a3a7468b41bfce5066584

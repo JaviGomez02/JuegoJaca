@@ -2,4 +2,7 @@
 <typeInfoHistroy>
     <typeInfo handle="=JuegoJaca-main/C:\/Users\/Asus\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\/jre\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1637078432000"/>
     <typeInfo handle="=JuegoJaca-main/src&lt;elementos{Element.java[Element" modifiers="1" timestamp="1652804884777"/>
+    <typeInfo handle="=JuegoJaca-main/src&lt;elementos{Coordenada.java[Coordenada" modifiers="1" timestamp="1652804891935"/>
+    <typeInfo handle="=JuegoJaca-main/src&lt;elementos{JugadorException.java[JugadorException" modifiers="1" timestamp="1652804940131"/>
+    <typeInfo handle="=JuegoJaca-main/src&lt;elementos{Jugador.java[Jugador" modifiers="1" timestamp="1652807081227"/>
 </typeInfoHistroy>

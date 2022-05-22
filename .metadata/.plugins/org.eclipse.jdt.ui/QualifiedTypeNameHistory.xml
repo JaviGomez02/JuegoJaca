@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="elementos.Coordenada"/>
+    <fullyQualifiedTypeName name="elementos.Jugador"/>
+    <fullyQualifiedTypeName name="elementos.PlayerType"/>
+    <fullyQualifiedTypeName name="elementos.JugadorException"/>
     <fullyQualifiedTypeName name="logicaJuego.Constantes"/>
 </qualifiedTypeNameHistroy>

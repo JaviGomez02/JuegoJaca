@@ -1,0 +1,69 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import elementos.Coordenada;
+
+class TestCoordenada {
+
+	Coordenada coord=new Coordenada(1,1);
+	Coordenada c2=new Coordenada(-1,1);
+	Coordenada c3=new Coordenada(-1,-1);
+	Coordenada c4=new Coordenada(0,-1);
+
+	
+	@Test
+	public void coordenadaIncorrecta1() {
+		Coordenada c1=new Coordenada(-1,1);
+		Coordenada expected=new Coordenada(0,0);
+		assertEquals(expected, c1);
+	}
+	@Test
+	public void coordenadaIncorrecta2() {
+		Coordenada c1=new Coordenada(1,-1);
+		Coordenada expected=new Coordenada(0,0);
+		assertEquals(expected, c1);
+	}
+
+	@Test 
+	public void goDownIncorrecto() {
+		Coordenada c1=new Coordenada(1,9);
+		assertFalse(c1.goDown());
+	}
+	@Test 
+	public void goDownCorrecto() {
+		Coordenada c1=new Coordenada(1,1);
+		assertTrue(c1.goDown());
+	}
+	@Test 
+	public void goRightCorrecto() {
+		Coordenada c1=new Coordenada(1,1);
+		assertTrue(c1.goRight());
+	}
+	@Test
+	public void goRightIncorrecto() {
+		Coordenada c1=new Coordenada(9,0);
+		assertFalse(c1.goRight());
+	}
+	@Test
+	public void goLeftCorrecto() {
+		assertTrue(c1.goLeft());
+	}
+	@Test
+	public void goLeftMalo() {
+		Coordenada c9=new Coordenada(0,0);
+		assertFalse(c9.goLeft());
+	}
+	@Test
+	public void goUpBueno() {
+		assertTrue(c1.goUp());
+	}
+	@Test
+	public void goUpMalo() {
+		Coordenada c15=new Coordenada(1,0);
+		assertFalse(c15.goUp());
+	}
+
+}

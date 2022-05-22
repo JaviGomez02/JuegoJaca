@@ -28,7 +28,7 @@ public class Jugador extends Element {
 
 	public int getFuerzaParaLuchar() {
 		Random r = new Random();
-		return r.nextInt(this.getFuerza() + 1);
+		return r.nextInt(this.getFuerza());
 	}
 
 	private int getMagia() {
@@ -37,7 +37,7 @@ public class Jugador extends Element {
 
 	public int getMagiaParaLuchar() {
 		Random r = new Random();
-		return r.nextInt(this.getMagia() + 1);
+		return r.nextInt(this.getMagia());
 	}
 
 	private int getVelocidad() {
@@ -48,7 +48,7 @@ public class Jugador extends Element {
 		Random r = new Random();
 		int resultado = 0;
 		while (resultado == 0) {
-			resultado = r.nextInt(this.getVelocidad() + 1);
+			resultado = r.nextInt(this.getVelocidad());
 		}
 		return resultado;
 	}
@@ -57,7 +57,10 @@ public class Jugador extends Element {
 		return dinero;
 	}
 
-	public void setDinero(int dinero) {
+	public void setDinero(int dinero) throws JugadorException {
+		if (dinero > Constantes.NUM_DINERO || dinero < 0) {
+			throw new JugadorException("Dinero incorrecto");
+		}
 		this.dinero = dinero;
 	}
 
@@ -65,7 +68,10 @@ public class Jugador extends Element {
 		return gemas;
 	}
 
-	public void setGemas(int gemas) {
+	public void setGemas(int gemas) throws JugadorException {
+		if (gemas > Constantes.NUM_GEMAS || gemas < 0) {
+			throw new JugadorException("Gemas incorrectas");
+		}
 		this.gemas = gemas;
 	}
 
@@ -73,15 +79,19 @@ public class Jugador extends Element {
 		return pociones;
 	}
 
-	public void setPociones(int pociones) {
+	public void setPociones(int pociones) throws JugadorException {
+		if (pociones > Constantes.NUM_POCIONES || pociones < 0) {
+			throw new JugadorException("Pociones incorrectas");
+		}
 		this.pociones = pociones;
 	}
 
 	public String resumen() {
-		return "Resumen";
+		return "Nombre: " + this.getNombre() + ". Gemas: " + this.getGemas() + ". Dinero: " + this.getDinero()
+				+ ". Pociones: " + this.getPociones();
 	}
 
-	public int lucha(Jugador enemigo) {
+	public int lucha(Jugador enemigo) throws JugadorException {
 		int resultado;
 		int fuerzaJugador = this.getFuerzaParaLuchar();
 		int fuerzaEnemigo = this.getFuerzaParaLuchar();

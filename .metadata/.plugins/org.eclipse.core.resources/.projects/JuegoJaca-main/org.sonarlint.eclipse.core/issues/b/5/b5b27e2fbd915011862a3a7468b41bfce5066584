@@ -1,0 +1,28 @@
+
+•
+java:S1192z"_Define a constant instead of duplicating this literal "Error si no salta la exception" 6 times.(êõü”8ÒËÛ0H»HRCRITICALZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òéÑÎüÿÿÿÿ8¬øÛ0H¼JRMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¦®×8¬øÛ0H½JRMINORZ
+CODE_SMELL
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êßâ	8¬øÛ0H¾JRMINORZ
+CODE_SMELL
+…	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«à²»ÿÿÿÿÿ8¬øÛ0H¿JRMINORZ
+CODE_SMELL
+€	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼’Ş‘8¬øÛ0HÀJRMINORZ
+CODE_SMELL
+…	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òèø˜úÿÿÿÿ8¬øÛ0HÁJRMINORZ
+CODE_SMELL
+€	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ø—é8¬øÛ0HÂJRMINORZ
+CODE_SMELL
+…	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÕæşÿÿÿÿ8¬øÛ0HÃJRMINORZ
+CODE_SMELL
+…	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ Şÿùÿÿÿÿ8¬øÛ0HÄJRMINORZ
+CODE_SMELL
+€	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àâñ—8¬øÛ0HÅJRMINORZ
+CODE_SMELL
+€	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ãÚ²8¬øÛ0HÆJRMINORZ
+CODE_SMELL
+€	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ãÌ8¬øÛ0HÇJRMINORZ
+CODE_SMELL

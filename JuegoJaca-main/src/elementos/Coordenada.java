@@ -12,8 +12,7 @@ public class Coordenada {
 
 	public Coordenada(int x, int y) {
 		super();
-		setX(x);
-		setY(y);
+		setXY(x, y);
 	}
 
 	public Coordenada() {
@@ -22,23 +21,18 @@ public class Coordenada {
 		this.y = random(Constantes.TAMANNO);
 	}
 
-	private void setX(int x) {
-		if (x < 0 || x > Constantes.TAMANNO) {
+	private void setXY(int x, int y) {
+		if (x < 0 || x > Constantes.TAMANNO || y < 0 || y > Constantes.TAMANNO) {
 			x = 0;
+			y = 0;
 		}
 		this.x = x;
+		this.y = y;
 	}
 
 	private int random(int tamanno) {
 		Random r = new Random();
 		return r.nextInt(tamanno);
-	}
-
-	private void setY(int y) {
-		if (y < 0 || y > Constantes.TAMANNO) {
-			y = 0;
-		}
-		this.y = y;
 	}
 
 	public int getX() {
@@ -83,7 +77,7 @@ public class Coordenada {
 
 	public boolean goLeft() {
 		boolean resultado = false;
-		if (this.x != 1) {
+		if (this.x != 0) {
 			this.x -= 1;
 			resultado = true;
 		}
@@ -92,7 +86,7 @@ public class Coordenada {
 
 	public boolean goUp() {
 		boolean resultado = false;
-		if (this.y != 1) {
+		if (this.y != 0) {
 			this.y -= 1;
 			resultado = true;
 		}
