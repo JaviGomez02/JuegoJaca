@@ -1,15 +1,15 @@
 
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘HCRMINORZ
-CODE_SMELL
-b
-java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHCRINFOZ
-CODE_SMELL
-i
-java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¾ÿ¿0H£CRINFOZ
-CODE_SMELL
 i
 java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¾ÿ¿0H¤CRINFOZ
 CODE_SMELL
 i
 java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¾ÿ¿0H¥CRINFOZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘HCRMINORZ
+CODE_SMELL
+i
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8¾ÿ¿0H£CRINFOZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHCRINFOZ
 CODE_SMELL

@@ -1,33 +1,33 @@
 
-„
-java:S5361‘"HReplace this call to "replaceAll()" by a call to the "replace()" method.(•íçêüÿÿÿÿ8Õ½¿0HùARCRITICALZ
-CODE_SMELL
-
-java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÓŒğ 8Õ½¿0HúARCRITICALZ
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘HŒYRMINORZ
 CODE_SMELL
 c
-java:S1135¼"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHôARINFOZ
-CODE_SMELL
-b
-java:S1905B"1Remove this unnecessary cast to "ActionListener".(Â¸¸‰ûÿÿÿÿHïARMINORZ
-CODE_SMELL
-y
-java:S1192d"JDefine a constant instead of duplicating this literal "user.dir" 10 times.(ÎŞ„ËHÏARCRITICALZ
+java:S1135¼"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHYRINFOZ
 CODE_SMELL
 c
-java:S1135Ã"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÚARINFOZ
+java:S1135ª"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHYRINFOZ
 CODE_SMELL
 ˆ
-java:S1192µ"XDefine a constant instead of duplicating this literal "Movimiento no permitido" 3 times.(‰€ÀóHõARCRITICALZ
+java:S1192µ"XDefine a constant instead of duplicating this literal "Movimiento no permitido" 3 times.(‰€ÀóHYRCRITICALZ
+CODE_SMELL
+b
+java:S1905B"1Remove this unnecessary cast to "ActionListener".(Â¸¸‰ûÿÿÿÿH“YRMINORZ
+CODE_SMELL
+„
+java:S5361‘"HReplace this call to "replaceAll()" by a call to the "replace()" method.(•íçêüÿÿÿÿ8Õ½¿0H•YRCRITICALZ
+CODE_SMELL
+y
+java:S1192d"JDefine a constant instead of duplicating this literal "user.dir" 10 times.(ÎŞ„ËH–YRCRITICALZ
 CODE_SMELL
 c
-java:S1135ª"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHñARINFOZ
+java:S1135±"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH¡YRINFOZ
 CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘HóARMINORZ
+
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÓŒğ 8Õ½¿0H¢YRCRITICALZ
+CODE_SMELL
+c
+java:S1135Ã"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH£YRINFOZ
 CODE_SMELL
 ‡
-java:S3776™"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(¼ ÒşüÿÿÿÿHÛARCRITICALZ
-CODE_SMELL
-c
-java:S1135±"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHòARINFOZ
+java:S3776™"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(¼ ÒşüÿÿÿÿH¤YRCRITICALZ
 CODE_SMELL

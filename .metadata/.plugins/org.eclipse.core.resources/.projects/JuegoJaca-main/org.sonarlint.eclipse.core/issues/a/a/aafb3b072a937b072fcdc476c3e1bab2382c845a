@@ -1,15 +1,15 @@
 
-I
-java:S2386"Make this member "protected".(”ç–óHÚCRMINORZ
-CODE_SMELL
-]
-java:S1135&"2Complete the task associated to this TODO comment.(Ú¾šˆH×CRINFOZ
-CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘HÙCRMINORZ
-CODE_SMELL
 k
-java:S1118":Add a private constructor to hide the implicit public one.(ÎÇÀÂüÿÿÿÿHÖCRMAJORZ
+java:S1118":Add a private constructor to hide the implicit public one.(ÎÇÀÂüÿÿÿÿHáPRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘HâPRMINORZ
+CODE_SMELL
+I
+java:S2386"Make this member "protected".(”ç–óHàPRMINORZ
+CODE_SMELL
+d
+java:S1135&"2Complete the task associated to this TODO comment.(Ú¾šˆ8•û½İ0HåPRINFOZ
 CODE_SMELL
 ]
-java:S1135)"2Complete the task associated to this TODO comment.(Ûé×¥HØCRINFOZ
+java:S1135)"2Complete the task associated to this TODO comment.(Ûé×¥HäPRINFOZ
 CODE_SMELL

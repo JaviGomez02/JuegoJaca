@@ -1,51 +1,51 @@
 
-„
-java:S1104"SMake teclado a static final constant or non-public and provide accessors if needed.(©§ôúÿÿÿÿHÈJRMINORZ
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ììì›ùÿÿÿÿHÛMRMINORZ
 CODE_SMELL
-i	java:S1068"9Replace this use of System.out or System.err by a logger.(Ó¶‚‡üÿÿÿÿHÉJRMAJORZ
+d	java:S106("9Replace this use of System.out or System.err by a logger.(õÍâ™HÔMRMAJORZ
 CODE_SMELL
-d	java:S106H"9Replace this use of System.out or System.err by a logger.(“³ÙğHÊJRMAJORZ
+d	java:S106*"9Replace this use of System.out or System.err by a logger.(Ï«»¬HÎMRMAJORZ
 CODE_SMELL
-d	java:S106%"9Replace this use of System.out or System.err by a logger.(÷²ÚèHËJRMAJORZ
+i	java:S1061"9Replace this use of System.out or System.err by a logger.( øşÿÿÿÿHÙMRMAJORZ
 CODE_SMELL
-d	java:S106U"9Replace this use of System.out or System.err by a logger.(’†HÌJRMAJORZ
-CODE_SMELL
-^
-java:S1444"-Make this "public static teclado" field final(©§ôúÿÿÿÿHÍJRMINORZ
-CODE_SMELL
-d	java:S1069"9Replace this use of System.out or System.err by a logger.(¡¨ß HÎJRMAJORZ
-CODE_SMELL
-d	java:S106:"9Replace this use of System.out or System.err by a logger.(§¬¤HÏJRMAJORZ
-CODE_SMELL
-i	java:S106L"9Replace this use of System.out or System.err by a logger.(óĞûÿÿÿÿHĞJRMAJORZ
-CODE_SMELL
-d	java:S106O"9Replace this use of System.out or System.err by a logger.(§¬¤HÑJRMAJORZ
-CODE_SMELL
-e
-java:S1128"2Remove this unused import 'elementos.ElementType'.(Ç•î—8Æê¿0HÒJRMINORZ
-CODE_SMELL
-}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ììì›ùÿÿÿÿHÔJRMINORZ
-CODE_SMELL
-i	java:S1061"9Replace this use of System.out or System.err by a logger.( øşÿÿÿÿHÕJRMAJORZ
-CODE_SMELL
-d	java:S106*"9Replace this use of System.out or System.err by a logger.(Ï«»¬HÖJRMAJORZ
+i	java:S106L"9Replace this use of System.out or System.err by a logger.(óĞûÿÿÿÿHĞMRMAJORZ
 CODE_SMELL
 i
-java:S1128"1Remove this unused import 'logicaJuego.JuegoGUI'.(²¶§Ÿıÿÿÿÿ8Æê¿0H×JRMINORZ
+java:S1128"1Remove this unused import 'logicaJuego.JuegoGUI'.(²¶§Ÿıÿÿÿÿ8Æê¿0HÕMRMINORZ
 CODE_SMELL
-g	java:S125A"<This block of commented-out lines of code should be removed.(éö¾³HÙJRMAJORZ
+i	java:S106B"9Replace this use of System.out or System.err by a logger.(Û–Ï±úÿÿÿÿHÓMRMAJORZ
+CODE_SMELL
+d	java:S106H"9Replace this use of System.out or System.err by a logger.(“³ÙğHÚMRMAJORZ
+CODE_SMELL
+d	java:S106%"9Replace this use of System.out or System.err by a logger.(÷²ÚèH¿MRMAJORZ
+CODE_SMELL
+„
+java:S1104"SMake teclado a static final constant or non-public and provide accessors if needed.(©§ôúÿÿÿÿHÒMRMINORZ
+CODE_SMELL
+i	java:S1068"9Replace this use of System.out or System.err by a logger.(Ó¶‚‡üÿÿÿÿHØMRMAJORZ
+CODE_SMELL
+d	java:S106U"9Replace this use of System.out or System.err by a logger.(’†H¼MRMAJORZ
+CODE_SMELL
+i	java:S106X"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿHÏMRMAJORZ
+CODE_SMELL
+^
+java:S1444"-Make this "public static teclado" field final(©§ôúÿÿÿÿH»MRMINORZ
+CODE_SMELL
+i	java:S106N"9Replace this use of System.out or System.err by a logger.(Ó¶‚‡üÿÿÿÿH×MRMAJORZ
+CODE_SMELL
+d	java:S106:"9Replace this use of System.out or System.err by a logger.(§¬¤HºMRMAJORZ
+CODE_SMELL
+d	java:S1069"9Replace this use of System.out or System.err by a logger.(¡¨ß HÍMRMAJORZ
 CODE_SMELL
 †
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‚ÒşåıÿÿÿÿHÚJRCRITICALZ
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‚ÒşåıÿÿÿÿHÁMRCRITICALZ
 CODE_SMELL
-i	java:S106X"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿHæJRMAJORZ
+g	java:S125A"<This block of commented-out lines of code should be removed.(éö¾³HÀMRMAJORZ
 CODE_SMELL
 b
-java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHçJRINFOZ
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÜMRINFOZ
 CODE_SMELL
-i	java:S106N"9Replace this use of System.out or System.err by a logger.(Ó¶‚‡üÿÿÿÿHèJRMAJORZ
+d	java:S106O"9Replace this use of System.out or System.err by a logger.(§¬¤HÑMRMAJORZ
 CODE_SMELL
-d	java:S106("9Replace this use of System.out or System.err by a logger.(õÍâ™HéJRMAJORZ
-CODE_SMELL
-i	java:S106B"9Replace this use of System.out or System.err by a logger.(Û–Ï±úÿÿÿÿHêJRMAJORZ
+e
+java:S1128"2Remove this unused import 'elementos.ElementType'.(Ç•î—8Æê¿0H½MRMINORZ
 CODE_SMELL

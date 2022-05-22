@@ -9,6 +9,7 @@ public class Jugador extends Element {
 	private int gemas;
 	private PlayerType player;
 	private int pociones;
+	private static Random r = new Random();
 
 	public Jugador(PlayerType player) {
 		super(ElementType.valueOf(player.toString()));
@@ -27,7 +28,6 @@ public class Jugador extends Element {
 	}
 
 	public int getFuerzaParaLuchar() {
-		Random r = new Random();
 		return r.nextInt(this.getFuerza());
 	}
 
@@ -36,7 +36,6 @@ public class Jugador extends Element {
 	}
 
 	public int getMagiaParaLuchar() {
-		Random r = new Random();
 		return r.nextInt(this.getMagia());
 	}
 
@@ -45,7 +44,6 @@ public class Jugador extends Element {
 	}
 
 	public int getVelocidadParaLuchar() {
-		Random r = new Random();
 		int resultado = 0;
 		while (resultado == 0) {
 			resultado = r.nextInt(this.getVelocidad());

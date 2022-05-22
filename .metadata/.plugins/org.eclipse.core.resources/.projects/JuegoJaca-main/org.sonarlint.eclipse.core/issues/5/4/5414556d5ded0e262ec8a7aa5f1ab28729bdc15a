@@ -1,64 +1,42 @@
 
-f
-java:S1481„"-Remove this unused "contador" local variable.(¸¼¾ÿøÿÿÿÿ8‚Ÿ¢¾0HñGRMINORZ
-CODE_SMELL
 €
-java:S3824?"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8Ì«ò½0HòGRMAJORZ
+java:S3824""HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8“ûï½0H¯KRMAJORZ
 CODE_SMELL
-€	java:S100á"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«èè8’œ†¿0HúGRMINORZ
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘H®KRMINORZ
 CODE_SMELL
-†	java:S100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¯À£üÿÿÿÿ8úºÂ¾0HûGRMINORZ
+	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ûÉ8ìŸ«¾0H¨KRMINORZ
 CODE_SMELL
-X	java:S131Ì""Add a default case to this switch.(£ù¿š8ûœ¾0HüGRCRITICALZ
-CODE_SMELL
-b
-java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8Œ÷‰¿0HıGRMINORZ
-CODE_SMELL
-t	java:S125–"<This block of commented-out lines of code should be removed.(ÏúÊıÿÿÿÿ8Ô”¶¿0HÿGRMAJORZ
-CODE_SMELL
-€
-java:S38241"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8“ûï½0H‚HRMAJORZ
-CODE_SMELL
-	java:S100•"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Š‡÷8ÿ«´¾0HŠHRMINORZ
+X	java:S131""Add a default case to this switch.(ôş€ä8ûœ¾0HKRCRITICALZ
 CODE_SMELL
 ‚
-java:S1192{"LDefine a constant instead of duplicating this literal "El jugador " 7 times.(Ñ¸İ¿8ûœ¾0H‹HRCRITICALZ
+java:S1192t"LDefine a constant instead of duplicating this literal "El jugador " 7 times.(Ñ¸İ¿8ûœ¾0HùJRCRITICALZ
 CODE_SMELL
 §
-java:S1130•"sRemove the declaration of thrown exception 'logicaJuego.JuegoException', as it cannot be thrown from method's body.(™Š‡÷8Ô”¶¿0H“HRMINORZ
-CODE_SMELL
-	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ûÉ8ìŸ«¾0H•HRMINORZ
-CODE_SMELL
-`	java:S108h")Either remove or fill this block of code.(ê¼ßºùÿÿÿÿ8Í–¾0H–HRMAJORZ
-CODE_SMELL
-|
-java:S6201¿"HReplace this instanceof check and cast with 'instanceof Jugador jugador'(Şñ·û8Åææ¾0H—HRMINORZ
-CODE_SMELL
-X	java:S131©""Add a default case to this switch.(ôş€ä8ûœ¾0H™HRCRITICALZ
-CODE_SMELL
-v
-java:S6201†"BReplace this instanceof check and cast with 'instanceof Jugador j'(Şñ·û8õ—¾0HšHRMINORZ
-CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘HœHRMINORZ
-CODE_SMELL
-{
-java:S6201¥"HReplace this instanceof check and cast with 'instanceof Jugador enemigo'(„ ~8ûœ¾0HHRMINORZ
+java:S1130"sRemove the declaration of thrown exception 'logicaJuego.JuegoException', as it cannot be thrown from method's body.(ÒòÈ¤8˜ïŞ0HÈURMINORZ
 CODE_SMELL
 €
-java:S3824#"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8¢ì½0HŸHRMAJORZ
-CODE_SMELL
-{
-java:S6201l"HReplace this instanceof check and cast with 'instanceof Jugador jugador'(Şñ·û8ùªÿ½0H§HRMINORZ
-CODE_SMELL
-u
-java:S6201y"BReplace this instanceof check and cast with 'instanceof Jugador j'(Şñ·û8îß‘¾0H©HRMINORZ
-CODE_SMELL
-b
-java:S1066m"/Merge this if statement with the enclosing one.(â×†Ñ8ùªÿ½0H«HRMAJORZ
+java:S3824G"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8Ì«ò½0H‹KRMAJORZ
 CODE_SMELL
 ƒ
-java:S1192º"LDefine a constant instead of duplicating this literal "El enemigo " 3 times.(¼æÚï8ûœ¾0H­HRCRITICALZ
+java:S1192®"LDefine a constant instead of duplicating this literal "El enemigo " 3 times.(¼æÚï8ûœ¾0HõJRCRITICALZ
+CODE_SMELL
+|
+java:S6201³"HReplace this instanceof check and cast with 'instanceof Jugador jugador'(Şñ·û8›ğéİ0HŒURMINORZ
+CODE_SMELL
+{
+java:S6201™"HReplace this instanceof check and cast with 'instanceof Jugador enemigo'(„ ~8ûœ¾0H…KRMINORZ
+CODE_SMELL
+€	java:S100Õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«èè8’œ†¿0H©KRMINORZ
 CODE_SMELL
 €
-java:S3824L"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8ªôå½0H±HRMAJORZ
+java:S3824;"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8¢ì½0H“KRMAJORZ
+CODE_SMELL
+†	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÜÅÏÿÿÿÿÿ8ÿ«´¾0H¬KRMINORZ
+CODE_SMELL
+€
+java:S3824."HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8ªôå½0HŸKRMAJORZ
+CODE_SMELL
+X	java:S131À""Add a default case to this switch.(£ù¿š8ûœ¾0HòJRCRITICALZ
+CODE_SMELL
+	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óñáû8úºÂ¾0HïJRMINORZ
 CODE_SMELL

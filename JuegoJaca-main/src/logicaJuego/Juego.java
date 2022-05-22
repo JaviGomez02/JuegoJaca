@@ -2,7 +2,6 @@ package logicaJuego;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 
 import elementos.*;
 
@@ -36,9 +35,7 @@ public class Juego {
 				this.tablero.put(c, e);
 				contador += 1;
 			}
-
 		}
-
 	}
 
 	private void crearPociones() {
@@ -50,7 +47,6 @@ public class Juego {
 				this.tablero.put(c, e);
 				contador += 1;
 			}
-
 		}
 	}
 
@@ -64,7 +60,6 @@ public class Juego {
 				this.tablero.put(c, e);
 				contador += 1;
 			}
-
 		}
 	}
 
@@ -77,7 +72,6 @@ public class Juego {
 				this.tablero.put(c, e);
 				contador++;
 			}
-
 		}
 	}
 
@@ -87,8 +81,9 @@ public class Juego {
 		while (coordenadaJugadores.contains(c)) {
 			c = new Coordenada();
 		}
-		tablero.put(c, j);
+
 		coordenadaJugadores.add(c);
+		tablero.put(c, j);
 		return true;
 	}
 
@@ -102,13 +97,11 @@ public class Juego {
 	public boolean isTerminado() {
 		boolean resultado = false;
 		if (coordenadaJugadores.size() == 1) {
+			resultado = true;
 		}
-
 		for (Element e : this.tablero.values()) {
-			if (e instanceof Jugador) {
-				if (((Jugador) e).getDinero() == Constantes.DINERO) {
-					resultado = true;
-				}
+			if (e instanceof Jugador j && j.getDinero() == Constantes.DINERO) {
+				resultado = true;
 			}
 		}
 		return resultado;
@@ -116,10 +109,9 @@ public class Juego {
 
 	public String imprimeNombreJugadores() {
 		StringBuilder resultado = new StringBuilder("");
-		int contador = 0;
+		int contador = 1;
 		for (Element e : this.tablero.values()) {
-			if (e instanceof Jugador) {
-				Jugador j = (Jugador) e;
+			if (e instanceof Jugador j) {
 				resultado.append("El jugador " + contador + " es un " + j.getNombre() + "\n");
 				contador++;
 			}
@@ -129,13 +121,10 @@ public class Juego {
 
 	public String imprimeValoreJugadores() {
 		StringBuilder resultado = new StringBuilder("");
-		int contador = 0;
 		for (Element e : this.tablero.values()) {
-			if (e instanceof Jugador) {
-				Jugador j = (Jugador) e;
+			if (e instanceof Jugador j) {
 				resultado.append("El " + j.getNombre() + " tiene " + j.getDinero() + " de dinero, " + j.getPociones()
 						+ " pociones y " + j.getGemas() + " gemas.\n");
-				contador++;
 			}
 		}
 		return resultado.toString();
@@ -146,10 +135,8 @@ public class Juego {
 		this.coordenadaJugadores.remove(coord);
 	}
 
-	private Coordenada getNextPosition​(char direction) throws JuegoException {
-//		if (direction != 'N' || direction != 'S' || direction != 'E' || direction != 'O') {
-//			throw new JuegoException("Direccion no valida");
-//		}
+	private Coordenada getNextPosition​(char direction) {
+
 		Coordenada c = this.coordenadaJugadores.get(jugadorJuega);
 		if (direction == 'N') {
 			c.goUp();
@@ -164,12 +151,12 @@ public class Juego {
 
 	}
 
-	private void cambiaJugadorAPosicion​(Coordenada coord) {
+	private void cambiaJugadorPosicion​(Coordenada coord) {
 		Coordenada c = this.coordenadaJugadores.get(jugadorJuega);
 		Jugador j = (Jugador) this.tablero.get(c);
 		tablero.remove(c);
 		tablero.put(coord, j);
-		this.coordenadaJugadores.remove(c);
+		this.coordenadaJugadores.remove(jugadorJuega);
 		this.coordenadaJugadores.add(jugadorJuega, coord);
 	}
 
@@ -188,11 +175,8 @@ public class Juego {
 			resultado = j.toString();
 		} else {
 			for (Element e : tablero.values()) {
-				if (e instanceof Jugador) {
-					Jugador j = ((Jugador) e);
-					if (j.getDinero() == Constantes.NUM_DINERO) {
-						resultado = j.toString();
-					}
+				if (e instanceof Jugador j && j.getDinero() == Constantes.NUM_DINERO) {
+					resultado = j.toString();
 				}
 			}
 		}
@@ -332,12 +316,12 @@ public class Juego {
 				switch (resultadoRoca) {
 				case Constantes.ROMPE_ROCA_CON_GEMA:
 					resul = "El jugador " + jugador.getNombre() + " rompe la roca con una gema";
-					this.cambiaJugadorAPosicion​(coordDestino);
+					this.cambiaJugadorPosicion​(coordDestino);
 					break;
 
 				case Constantes.GANA_A_LA_ROCA:
 					resul = "El jugador " + jugador.getNombre() + " gana a la roca";
-					this.cambiaJugadorAPosicion​(coordDestino);
+					this.cambiaJugadorPosicion​(coordDestino);
 					break;
 
 				case Constantes.PIERDE_A_LA_ROCA:
@@ -346,20 +330,20 @@ public class Juego {
 				}
 			} else if (elemento.getType() == ElementType.GEMA) {
 				jugador.encuentraGema();
-				this.cambiaJugadorAPosicion​(coordDestino);
+				this.cambiaJugadorPosicion​(coordDestino);
 
 			} else if (elemento.getType() == ElementType.DINERO) {
 				jugador.encuentraDinero();
-				this.cambiaJugadorAPosicion​(coordDestino);
+				this.cambiaJugadorPosicion​(coordDestino);
 
 			} else if (elemento.getType() == ElementType.POCION) {
 				jugador.encuentraPocion();
-				this.cambiaJugadorAPosicion​(coordDestino);
+				this.cambiaJugadorPosicion​(coordDestino);
 
 			}
 
 		} else {
-			this.cambiaJugadorAPosicion​(coordDestino);
+			this.cambiaJugadorPosicion​(coordDestino);
 		}
 
 		return resul;
