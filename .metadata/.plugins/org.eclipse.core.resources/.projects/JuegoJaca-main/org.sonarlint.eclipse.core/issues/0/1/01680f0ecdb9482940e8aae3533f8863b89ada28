@@ -1,10 +1,4 @@
 
-M
-java:S2119"Save and re-use this "Random".(¡Å”¦8ñí—0HëJRCRITICALZBUG
 c
-java:S2160"+Override the "equals" method in this class.(Æ’ÀÈøÿÿÿÿ8ı­–0HíJRMINORZ
+java:S2160"+Override the "equals" method in this class.(Æ’ÀÈøÿÿÿÿ8ı­–0HcRMINORZ
 CODE_SMELL
-M
-java:S21190"Save and re-use this "Random".(¡Å”¦8· “—0HîJRCRITICALZBUG
-M
-java:S2119'"Save and re-use this "Random".(¡Å”¦8ÜÚˆ—0HìJRCRITICALZBUG

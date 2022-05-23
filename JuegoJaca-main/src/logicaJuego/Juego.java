@@ -28,7 +28,7 @@ public class Juego {
 
 	private void crearDinero() {
 		int contador = 0;
-		while (contador < Constantes.NUM_DINERO) {
+		while (contador < Constantes.DINERO) {
 			Coordenada c = new Coordenada();
 			Element e = new Element(ElementType.DINERO);
 			if (!tablero.containsKey(c)) {
@@ -135,17 +135,19 @@ public class Juego {
 		this.coordenadaJugadores.remove(coord);
 	}
 
-	private Coordenada getNextPosition​(char direction) {
+	private Coordenada getNextPosition​(char direction) throws JuegoException {
 
-		Coordenada c = this.coordenadaJugadores.get(jugadorJuega);
+		Coordenada c = this.coordenadaJugadores.get(jugadorJuega).clonar();
 		if (direction == 'N') {
 			c.goUp();
 		} else if (direction == 'S') {
 			c.goDown();
 		} else if (direction == 'E') {
 			c.goRight();
-		} else {
+		} else if (direction == 'O') {
 			c.goLeft();
+		} else {
+			throw new JuegoException("Coordenadas incorrectas");
 		}
 		return c;
 
@@ -161,7 +163,7 @@ public class Juego {
 	}
 
 	public void proximoJugador() {
-		if (this.jugadorJuega == Constantes.NUM_JUGADORES - 1) {
+		if (this.jugadorJuega == this.coordenadaJugadores.size() - 1) {
 			this.jugadorJuega = 0;
 		} else {
 			this.jugadorJuega += 1;
@@ -173,13 +175,13 @@ public class Juego {
 		if (this.coordenadaJugadores.size() == 1) {
 			Jugador j = (Jugador) tablero.get(coordenadaJugadores.get(jugadorJuega));
 			resultado = j.toString();
-		} else {
-			for (Element e : tablero.values()) {
-				if (e instanceof Jugador j && j.getDinero() == Constantes.NUM_DINERO) {
-					resultado = j.toString();
-				}
+		}
+		for (Element e : tablero.values()) {
+			if (e instanceof Jugador j && j.getDinero() == Constantes.DINERO) {
+				resultado = j.toString();
 			}
 		}
+
 		return resultado;
 
 	}

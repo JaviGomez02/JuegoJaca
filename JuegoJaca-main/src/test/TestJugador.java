@@ -10,7 +10,8 @@ import elementos.PlayerType;
 import logicaJuego.Constantes;
 
 class TestJugador {
-	private static final String ERROR="Error si no salta la exception";
+	private static final String ERROR = "Error si no salta la exception";
+
 	@Test
 	public void fuerzaParaLucharElfo() {
 		for (int i = 0; i <= 50; i++) {
@@ -116,33 +117,11 @@ class TestJugador {
 	}
 
 	@Test
-	public void setDineroIncorrecto1() {
-		Jugador j = new Jugador(PlayerType.MAGO);
-		try {
-			j.setDinero(3);
-			fail(ERROR);
-		} catch (JugadorException e) {
-			e.printStackTrace();
-		}
-	}
-
-	@Test
-	public void setDineroIncorrecto2() {
-		Jugador j = new Jugador(PlayerType.MAGO);
-		try {
-			j.setDinero(-1);
-			fail(ERROR);
-		} catch (JugadorException e) {
-			e.printStackTrace();
-		}
-	}
-
-	@Test
 	public void setDineroCorrecto1() {
 		Jugador j = new Jugador(PlayerType.MAGO);
 		try {
-			j.setDinero(2);
-			assertEquals(2, j.getDinero());
+			j.setDinero(4);
+			assertEquals(4, j.getDinero());
 		} catch (JugadorException e) {
 			e.printStackTrace();
 		}
@@ -160,10 +139,10 @@ class TestJugador {
 	}
 
 	@Test
-	public void setPocionesIncorrecto1() {
+	public void setDineroIncorrecto1() {
 		Jugador j = new Jugador(PlayerType.MAGO);
 		try {
-			j.setPociones(4);
+			j.setDinero(6);
 			fail(ERROR);
 		} catch (JugadorException e) {
 			e.printStackTrace();
@@ -171,10 +150,10 @@ class TestJugador {
 	}
 
 	@Test
-	public void setPocionesIncorrecto2() {
+	public void setDineroIncorrecto2() {
 		Jugador j = new Jugador(PlayerType.MAGO);
 		try {
-			j.setPociones(-1);
+			j.setDinero(-1);
 			fail(ERROR);
 		} catch (JugadorException e) {
 			e.printStackTrace();
@@ -205,11 +184,10 @@ class TestJugador {
 	}
 
 	@Test
-	public void setGemasIncorrecto1() {
+	public void setPocionesIncorrecto1() {
 		Jugador j = new Jugador(PlayerType.MAGO);
-
 		try {
-			j.setGemas(6);
+			j.setPociones(4);
 			fail(ERROR);
 		} catch (JugadorException e) {
 			e.printStackTrace();
@@ -217,11 +195,10 @@ class TestJugador {
 	}
 
 	@Test
-	public void setGemasIncorrecto2() {
+	public void setPocionesIncorrecto2() {
 		Jugador j = new Jugador(PlayerType.MAGO);
-
 		try {
-			j.setGemas(-1);
+			j.setPociones(-1);
 			fail(ERROR);
 		} catch (JugadorException e) {
 			e.printStackTrace();
@@ -253,6 +230,31 @@ class TestJugador {
 	}
 
 	@Test
+	public void setGemasIncorrecto1() {
+		Jugador j = new Jugador(PlayerType.MAGO);
+
+		try {
+			j.setGemas(6);
+			fail(ERROR);
+		} catch (JugadorException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Test
+	public void setGemasIncorrecto2() {
+		Jugador j = new Jugador(PlayerType.MAGO);
+
+		try {
+			j.setGemas(-1);
+			fail(ERROR);
+		} catch (JugadorException e) {
+			e.printStackTrace();
+		}
+	}
+
+
+	@Test
 	public void encuentraGema() {
 		Jugador j = new Jugador(PlayerType.MAGO);
 		j.encuentraGema();
@@ -264,6 +266,13 @@ class TestJugador {
 		Jugador j = new Jugador(PlayerType.MAGO);
 		j.encuentraDinero();
 		assertEquals(1, j.getDinero());
+	}
+	
+	@Test
+	public void encuentraPocion() {
+		Jugador j = new Jugador(PlayerType.MAGO);
+		j.encuentraPocion();
+		assertEquals(1, j.getPociones());
 	}
 
 	@Test

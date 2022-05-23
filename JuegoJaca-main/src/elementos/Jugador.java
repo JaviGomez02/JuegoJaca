@@ -56,7 +56,7 @@ public class Jugador extends Element {
 	}
 
 	public void setDinero(int dinero) throws JugadorException {
-		if (dinero > Constantes.NUM_DINERO || dinero < 0) {
+		if (dinero > Constantes.DINERO || dinero < 0) {
 			throw new JugadorException("Dinero incorrecto");
 		}
 		this.dinero = dinero;

@@ -119,7 +119,7 @@ public class JuegoGUI extends Juego implements ActionListener {
 				imageIcon = new ImageIcon(System.getProperty("user.dir") + "/img/guerrero.png");
 				break;
 			case 'M':
-				imageIcon = new ImageIcon(System.getProperty("user.dir") + "/img/mago.png");
+				imageIcon = new ImageIcon(System.getProperty("user.dir") + "/img/mago1.png");
 				break;
 			case 'O':
 				imageIcon = new ImageIcon(System.getProperty("user.dir") + "/img/ogro.png");

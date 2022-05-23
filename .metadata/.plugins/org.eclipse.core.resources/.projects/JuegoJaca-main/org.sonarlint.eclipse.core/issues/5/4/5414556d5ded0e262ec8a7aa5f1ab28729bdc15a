@@ -1,42 +1,36 @@
 
-€
-java:S3824""HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8“ûï½0H¯KRMAJORZ
-CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘H®KRMINORZ
-CODE_SMELL
-	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ûÉ8ìŸ«¾0H¨KRMINORZ
-CODE_SMELL
-X	java:S131""Add a default case to this switch.(ôş€ä8ûœ¾0HKRCRITICALZ
-CODE_SMELL
 ‚
-java:S1192t"LDefine a constant instead of duplicating this literal "El jugador " 7 times.(Ñ¸İ¿8ûœ¾0HùJRCRITICALZ
-CODE_SMELL
-§
-java:S1130"sRemove the declaration of thrown exception 'logicaJuego.JuegoException', as it cannot be thrown from method's body.(ÒòÈ¤8˜ïŞ0HÈURMINORZ
+java:S1192s"LDefine a constant instead of duplicating this literal "El jugador " 7 times.(Ñ¸İ¿8ûœ¾0H®\RCRITICALZ
 CODE_SMELL
 €
-java:S3824G"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8Ì«ò½0H‹KRMAJORZ
+java:S3824G"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8Ì«ò½0HÈ\RMAJORZ
 CODE_SMELL
-ƒ
-java:S1192®"LDefine a constant instead of duplicating this literal "El enemigo " 3 times.(¼æÚï8ûœ¾0HõJRCRITICALZ
+€
+java:S3824""HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8“ûï½0HĞ\RMAJORZ
 CODE_SMELL
-|
-java:S6201³"HReplace this instanceof check and cast with 'instanceof Jugador jugador'(Şñ·û8›ğéİ0HŒURMINORZ
+	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ûÉ8ìŸ«¾0H­\RMINORZ
 CODE_SMELL
 {
-java:S6201™"HReplace this instanceof check and cast with 'instanceof Jugador enemigo'(„ ~8ûœ¾0H…KRMINORZ
+java:S6201—"HReplace this instanceof check and cast with 'instanceof Jugador enemigo'(„ ~8ûœ¾0H«\RMINORZ
 CODE_SMELL
-€	java:S100Õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«èè8’œ†¿0H©KRMINORZ
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù¿‘HÙ\RMINORZ
+CODE_SMELL
+	java:S100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Š‡÷8ÿ«´¾0H¶\RMINORZ
+CODE_SMELL
+	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óñáû8úºÂ¾0HÇ\RMINORZ
+CODE_SMELL
+€	java:S100Ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«èè8’œ†¿0HÆ\RMINORZ
 CODE_SMELL
 €
-java:S3824;"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8¢ì½0H“KRMAJORZ
+java:S3824."HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8ªôå½0H¸\RMAJORZ
 CODE_SMELL
-†	java:S100‹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÜÅÏÿÿÿÿÿ8ÿ«´¾0H¬KRMINORZ
+X	java:S131›""Add a default case to this switch.(ôş€ä8ûœ¾0H·\RCRITICALZ
+CODE_SMELL
+ƒ
+java:S1192¬"LDefine a constant instead of duplicating this literal "El enemigo " 3 times.(¼æÚï8ûœ¾0HÂ\RCRITICALZ
+CODE_SMELL
+X	java:S131¾""Add a default case to this switch.(£ù¿š8ûœ¾0HØ\RCRITICALZ
 CODE_SMELL
 €
-java:S3824."HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8ªôå½0HŸKRMAJORZ
-CODE_SMELL
-X	java:S131À""Add a default case to this switch.(£ù¿š8ûœ¾0HòJRCRITICALZ
-CODE_SMELL
-	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óñáû8úºÂ¾0HïJRMINORZ
+java:S3824;"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(şæ¿ôûÿÿÿÿ8¢ì½0H£\RMAJORZ
 CODE_SMELL
